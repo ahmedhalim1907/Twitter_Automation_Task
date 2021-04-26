@@ -16,7 +16,7 @@ public class Reporting {
     @Parameters("ReportName")
     public void startReport(String ReportName) {
         tcNumb = 1;
-        extent = new ExtentReports(System.getProperty("user.dir") + "src/main/resources/reports/"
+        extent = new ExtentReports(System.getProperty("user.dir") + "/src/main/resources/reports/"
                 + ReportName + ".html");
     }
 
