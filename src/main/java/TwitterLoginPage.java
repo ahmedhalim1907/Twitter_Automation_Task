@@ -22,7 +22,7 @@ public class TwitterLoginPage {
 
     //constructor
     public TwitterLoginPage(WebDriver driver){
-        this.Logindriver = driver;
+        Logindriver = driver;
 
          Textcontainer = Logindriver.findElements(TextContainerLocator);
          usernameTextBox = Logindriver.findElement(usernameTextboxlocator);
